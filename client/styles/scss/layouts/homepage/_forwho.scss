@@ -1,0 +1,83 @@
+.forwho{
+	color: #545454;
+	.text{
+		padding-top: 61px;
+		@include breakpoint(middle){
+	            		padding-top: 25px;
+	        		}
+			@include breakpoint(small){
+		            		padding-top: 15px;
+		        		}
+		        		@include breakpoint(extra-small){
+		            		padding-top: 10px;
+		        		}	
+	}
+		.text p{
+			margin-left:18px;
+			text-align:center;
+			font-size:19px;
+		}
+		.ok{
+			h3{
+				padding-top: 32px;
+			    padding-left: 22px;
+				text-align: center;
+				text-transform: uppercase;
+				@include breakpoint(middle){
+	            		padding-top: 5px;
+	        		}
+					@include breakpoint(small){
+		            		padding-top:0;
+		        		}
+		        		@include breakpoint(extra-small){
+		            		padding-top: 0;
+		        		}	
+			}
+			.row{
+					padding-top: 45px;
+					@include breakpoint(middle){
+	            		padding-top: 20px;
+	        		}
+					@include breakpoint(small){
+		            		padding-top:5px;
+		        		}
+		        		@include breakpoint(extra-small){
+		            		padding-top: 0;
+		        		}
+				}
+			.ok-box{
+				p{
+				    padding-top: 16px;
+				}
+				
+				.one{
+					margin: 0 auto;
+					width:130px;
+					height:160px;
+					background: url("../../../client/images/icon_1.jpg") no-repeat;
+					background-position: 0px 0;
+				}
+				.two{
+					margin: 0 auto;
+					width:130px;
+					height:160px;
+					background: url("../../../client/images/icon_1.jpg") no-repeat;
+					background-position: -316px 0;
+				}
+				.three{
+					margin: 0 auto;
+					width:130px;
+					height:160px;
+					background: url("../../../client/images/icon_1.jpg") no-repeat;
+					background-position: -632px 0;
+				}
+				.four{
+					margin: 0 auto;
+					width:130px;
+					height:160px;
+					background: url("../../../client/images/icon_1.jpg") no-repeat;
+					background-position: -946px 0;
+				}
+			}
+		}
+}

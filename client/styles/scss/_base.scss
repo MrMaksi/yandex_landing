@@ -1,0 +1,39 @@
+html,
+body {
+  font-family: ClearSans-Light, sans-serif;
+  font-size: 20px;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+h2{
+	    text-transform: uppercase;
+}
+h3{
+	font-size: 36px;
+}
+.container{
+	    padding-left: 7px;
+    padding-right: 7px;
+}
+@font-face {
+  font-family: ClearSans-Bold;
+  src: url(../../fonts/ClearSans-Bold.ttf);
+}
+@font-face {
+  font-family: ClearSans-Light;
+  src: url(../../fonts/ClearSans-Light.ttf);
+}
+@font-face {
+  font-family: ClearSans-Thin;
+  src: url(../../fonts/ClearSans-Thin.ttf);
+}
+@font-face {
+  font-family: ClearSans-Medium;
+  src: url(../../fonts/ClearSans-Medium.ttf);
+}
+@font-face {
+  font-family: ClearSans;
+  src: url(../../fonts/ClearSans-Regular.ttf);
+}

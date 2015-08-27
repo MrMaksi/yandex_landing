@@ -1,0 +1,72 @@
+@mixin breakpoint($point) {
+    @if $point == large {
+        @media (min-width: 1200px) {
+            @content;
+        }
+    } @else if $point == large-top {
+        @media (min-width: 1200px) and (min-height: 982px) {
+            @content;
+        }
+    } @else if $point == large-middle {
+        @media (min-width: 1200px) and (min-height: 700px) and (max-height: 981px) {
+            @content;
+        }
+    } @else if $point == large-small {
+        @media (min-width: 1200px) and (min-height: 600px) and (max-height: 699px) {
+            @content;
+        }
+    } @else if $point == middle {
+        @media (min-width: 992px) and (max-width: 1199px) {
+            @content;
+        }
+    } @else if $point == middle-top {
+        @media (min-width: 992px) and (max-width: 1199px) and (min-height: 982px) {
+            @content;
+        }
+    } @else if $point == middle-md {
+        @media (min-width: 992px) and (max-width: 1199px) and (min-height: 700px) and (max-height: 981px) {
+            @content;
+        }
+    } @else if $point == middle-small {
+        @media (min-width: 992px) and (max-width: 1199px) and (min-height: 600px) and (max-height: 699px) {
+            @content;
+        }
+    } @else if $point == extra-middle {
+        @media (min-width: 980px) and (max-width: 991px) {
+            @content;
+        }
+    } @else if $point == extra-middle-top {
+        @media (min-width: 980px) and (max-width: 991px) and (min-height: 982px) {
+            @content;
+        }
+    } @else if $point == extra-middle-md {
+        @media (min-width: 980px) and (max-width: 991px) and (min-height: 700px) and (max-height: 981px) {
+            @content;
+        }
+    } @else if $point == extra-middle-small {
+        @media (min-width: 980px) and (max-width: 991px) and (min-height: 600px) and (max-height: 699px) {
+            @content;
+        }
+    } @else if $point == small {
+        @media (min-width: 768px) and (max-width: 991px) {
+            @content;
+        }
+    } @else if $point == small-top {
+        @media (min-width: 768px) and (max-width: 979px) and (min-height: 982px) {
+            @content;
+        }
+    } @else if $point == small-middle {
+        @media (min-width: 768px) and (max-width: 979px) and (min-height: 700px) and (max-height: 981px) {
+            @content;
+        }
+    } @else if $point == small-sm {
+        @media (min-width: 768px) and (max-width: 979px) and (min-height: 600px) and (max-height: 699px) {
+            @content;
+        }
+    } @else if $point == extra-small {
+        @media (max-width: 767px) {
+            @content;
+        }
+    }
+
+}

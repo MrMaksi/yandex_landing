@@ -1,0 +1,46 @@
+footer{
+	background: #181818;
+	color:#fff;
+
+	.navbar-bottom{
+		padding-top: 20px;
+    	padding-left: 6px;
+    	@include breakpoint(extra-small){
+   			float:none;
+		}
+		.navbar-brand{
+			@include breakpoint(extra-small){
+				text-align: center;
+    			float:none;
+			}
+		}
+			.navbar-text{
+				margin-top: 0px;
+    				margin-bottom: 0px;
+				@include breakpoint(extra-small){
+	    			text-align: center;
+	    			margin:0px;
+    			    
+				}
+			}
+	}
+			.pull-right{
+				text-align: right;
+			    margin-top: -3px;
+			    margin-right: -7px;
+			    @include breakpoint(middle){
+	    			text-align: right;
+					margin:0;
+				}
+				    @include breakpoint(small){
+		    				text-align: center;
+			    			margin-top: -3px;
+					}
+						@include breakpoint(extra-small){
+			    			text-align: center;
+			    			margin:0;
+			    			padding-top: 15px;
+    						float:none !important;
+							}
+			}
+}

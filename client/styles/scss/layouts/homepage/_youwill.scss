@@ -1,0 +1,159 @@
+.youwill{
+	background: url("../../../client/images/Background_foto_2.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 6px;
+	color: #fff;
+	margin-top: 44px;
+		@include breakpoint(middle){
+			padding-bottom:20px;
+			}
+			@include breakpoint(small){
+				padding-bottom:15px;
+				}
+		    		@include breakpoint(extra-small){
+					padding-bottom:5px;
+					}
+	.top{
+		h3{
+			padding-top: 35px;
+			padding-left: 16px;
+			text-align: center;
+			text-transform: uppercase;
+			color:#f4bf1d;
+			@include breakpoint(middle){
+				padding-top: 20px;
+				}
+				@include breakpoint(small){
+					padding-top: 5px;
+		    		}
+		    		@include breakpoint(extra-small){
+		    			padding-top: 0px;
+		    			}
+			}
+			.media{
+				@include breakpoint(large){
+				padding-top: 41px;
+	    		padding-left: 24px;
+	    		}
+		    		@include breakpoint(middle){
+					padding-top: 41px;
+		    		padding-left: 24px;
+		    		}
+			    		@include breakpoint(small){
+						padding-top: 15px;
+			    		padding-left: 0px;
+			    		}
+				    		@include breakpoint(extra-small){
+							padding-top: 15px;
+				    		padding-left: 0px;
+				    		}
+		    		.media-body{
+		    			@include breakpoint(large){
+						padding-top: 23px;
+			    		padding-left: 10px;
+			    		}
+				    		@include breakpoint(middle){
+							padding-top: 23px;
+				    		padding-left: 10px;
+				    		}
+					    		@include breakpoint(small){
+								padding-top: 23px;
+					    		padding-left: 10px;
+					    		}
+						    		@include breakpoint(extra-small){
+									padding-top: 23px;
+						    		padding-left: 10px;
+						    		}
+					}
+			}
+				.media-r{
+		    		@include breakpoint(large){
+						padding-top: 41px;
+			    		padding-left: 17px;
+			    		}
+				    		@include breakpoint(middle){
+							padding-top: 41px;
+				    		padding-left: 17px;
+				    		}
+					    		@include breakpoint(small){
+								padding-top: 15px;
+					    		padding-left: 0px;
+					    		}
+						    		@include breakpoint(extra-small){
+									padding-top: 15px;
+						    		padding-left: 0px;
+						    		}
+		    		.media-body{
+					   	@include breakpoint(large){
+							padding-top: 19px;
+				    		padding-left: 17px;
+				    	}
+				    		@include breakpoint(middle){
+								padding-top: 19px;
+					    		padding-left: 17px;
+					    	}
+						    	@include breakpoint(small){
+									padding-top: 19px;
+						    		padding-left: 17px;
+						    	}
+							    	@include breakpoint(extra-small){
+										padding-top: 19px;
+							    		padding-left: 17px;
+							    	}
+		    		}
+				}
+		}
+		.bottom{
+			h3{
+				padding-top: 30px;
+	    		padding-left: 28px;
+				text-align: center;
+				text-transform: uppercase;
+				@include breakpoint(small){
+					padding-top: 25px;
+					font-size: 30px;
+		    	}
+			    	@include breakpoint(extra-small){
+						padding-top: 15px;
+						font-size: 27px;
+			    	}
+			}
+			.row{
+				    padding-top: 25px;
+				    @include breakpoint(small){
+						padding-top: 0px;
+			    	}
+				    	@include breakpoint(extra-small){
+							padding-top: 0px;
+				    	}
+			}
+			.bot-box{
+				padding-top:  36px;
+				text-align:center;
+			}
+		}
+		.butn{
+			text-align: center;
+		    padding-top: 78px;
+		    margin-bottom: 63px;
+    		@include breakpoint(middle){
+				padding-top: 25px;
+		    	margin-bottom: 0px;
+			}
+        		@include breakpoint(small){
+            		padding-top: 25px;
+			    	margin-bottom: 0px;
+        		}
+	        		@include breakpoint(extra-small){
+	            		padding-top: 25px;
+			    		margin-bottom: 0px;
+	        		}
+			    .btn{
+			    	width: 188px;
+				    height: 54px;
+				    background: #fb5240;
+				    text-transform: uppercase;
+			    }
+			}
+}

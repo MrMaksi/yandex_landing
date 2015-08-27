@@ -1,0 +1,85 @@
+.speaker{
+		background: url("../../../client/images/bckgrnd-01.jpg");
+		background-repeat: no-repeat;
+	    background-size: cover;
+	    padding-bottom: 5px;
+		h3{	
+			padding-top: 29px;
+			padding-left: 14px;
+			text-align: center;
+			text-transform: uppercase;
+			@include breakpoint(middle){
+	    		padding-top: 10px;
+			}
+				@include breakpoint(small){
+		        	padding-top:0;
+		    		}
+		    		@include breakpoint(extra-small){
+		        		padding-top: 0;
+		    		}	
+		}
+			h4{
+				font-size: 53px;
+				font-family: ClearSans;
+				color: #fff;
+				margin-top: -18px;
+		    	padding-left: 13px;
+				}
+				i{
+					font-family: ClearSans-Thin;
+					font-style: normal;
+					font-size: 53px;
+					color: #fff;
+				}
+	.media{
+		padding-top:52px;
+		@include breakpoint(middle){
+			padding-top:15px;
+			text-align: center;
+		}
+			@include breakpoint(small){
+				padding-top:5px;
+				text-align: center;
+			}
+				@include breakpoint(extra-small){
+					padding-top:5px;
+					text-align: center;
+				}
+			.pull-left {
+    			
+    			@include breakpoint(middle){
+					float: none !important;
+				}
+    		}
+		hr{
+			margin-top: 2px;
+    		padding-bottom: 31px;
+    		@include breakpoint(middle){
+					padding-bottom: 15px;
+				}
+		}
+			hr:last-child{
+				margin-top: 0px;
+	    		padding-bottom: 0px;
+	    		}
+				h4{
+				    margin-top: -31px;
+					padding-left: 13px;
+					padding-bottom: 22px;
+				}
+	}
+	.main-text{
+		padding-top: 41px;
+    	padding-left: 31px;
+    	@include breakpoint(middle){
+			padding-top:15px;
+		}
+			@include breakpoint(small){
+				padding-top:5px;
+			}
+				@include breakpoint(extra-small){
+					padding-top:5px;
+				}
+
+	}
+}

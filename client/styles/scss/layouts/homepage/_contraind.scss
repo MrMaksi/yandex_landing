@@ -1,0 +1,54 @@
+.contraind{
+	background: url("../../../client/images/bckgrnd-01.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom:  35px;
+	@include breakpoint(middle){
+		padding-bottom: 15px;
+	}
+		@include breakpoint(small){
+        	padding-bottom:5px;
+    	}
+    		@include breakpoint(extra-small){
+        		padding-bottom: 0px;
+    		}
+	h3{
+		padding-top: 30px;
+   		padding-left: 19px;
+		font-size: 36px;
+		text-transform: uppercase;
+		text-align: center;
+	}
+	.imag{
+		padding-top: 30px;
+	    padding-left: 85px;
+			@include breakpoint(small){
+				text-align: center;
+				padding-left: 0;
+			}
+				@include breakpoint(extra-small){
+					text-align: center;
+					padding-left: 0;
+				}
+	}
+	.text{
+		padding-top: 52px;
+	    padding-left: 88px;
+		li{
+			font-size: 20px;
+			padding-bottom: 20px;
+		}
+		@include breakpoint(middle){
+		    padding-left: 105px;
+		}
+		@include breakpoint(small){
+		    padding-left: 130px;
+	        padding-top: 25px;
+		}
+		@include breakpoint(extra-small){
+		    padding-left: 0px;
+	        padding-top: 25px;
+		}
+	}
+
+}

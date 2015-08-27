@@ -1,0 +1,200 @@
+.intro-header{
+	background: url("../../../client/images/Background_foto.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom:68px;
+	text-align: center;
+		@include breakpoint(middle){
+        		padding-bottom:0;
+    		}
+	     	@include breakpoint(small){
+            		padding-bottom:15px;
+        		}
+        		@include breakpoint(extra-small){
+            		padding-bottom:15px;
+        		}
+	     h1{
+	     	margin-top: 0px;
+	     	    padding-left: 9px;
+	     	font-family: ClearSans-Bold;
+	     	font-size: 74px;
+	     	text-transform: uppercase;
+	     	color:#f4bf1d;
+	     	@include breakpoint(middle){
+            		font-size: 62px;
+        		}
+		     	@include breakpoint(small){
+	            		font-size: 48px;
+	        		}
+	        		@include breakpoint(extra-small){
+	            		font-size: 40px;
+	        		}
+	     }
+			h2{
+				font-size: 34px;
+				color:#f4bf1d;
+				@include breakpoint(middle){
+            		font-size: 26px;
+        		}
+	        		@include breakpoint(small){
+	            		font-size: 26px;
+	        		}
+		        		@include breakpoint(extra-small){
+		            		font-size: 24px;
+		        		}
+			}
+				p{
+					font-size: 18px;
+					font-family: ClearSans;
+					color:#fff;
+					}
+	    .navbar-brand{
+	    	padding: 34px 0;
+	    }
+		    .navbar-brand img{
+		    	@include breakpoint(extra-small){
+	        		width: 70%;
+	    		}
+			}
+	    	.info{
+	    		padding-top:155px;
+	    		@include breakpoint(middle){
+            			padding-top: 110px;
+        			}
+	        			@include breakpoint(small){
+	        				padding-top: 110px;
+	            			font-size: 17px;
+	        			}
+		        			@include breakpoint(extra-small){
+		        				padding-top: 80px;
+		            			font-size: 14px;
+		        			}
+	    		.wh{
+	    			padding-top: 10px;
+    				padding-left: 28px;
+			     	color: #f4f4f4;
+			     	font-size: 24px;
+			     	font-family: ClearSans-Light;
+			     	@include breakpoint(middle){
+            			font-size: 17px;
+        			}
+	        			@include breakpoint(small){
+	            			font-size: 17px;
+	        			}
+		        			@include breakpoint(extra-small){
+		            			font-size: 14px;
+		        			}
+			     }
+	    	}
+	   	.dt{
+	     	h2{
+	     		margin-top:  0px;
+	     		margin-bottom: 0;
+	     		padding-left: 33px;
+	     		font-family: ClearSans-Bold;
+	     	}
+		     	h3{
+	     		    margin-top: -9px;
+				    margin-bottom: 0;
+		     		font-size: 48px;
+		     		font-family: ClearSans;
+		     		color:#f4bf1d;
+		     	}
+			     	p{
+			     		font-size: 18px;
+			     		font-family: ClearSans;
+			     	}
+			     	.top{
+			     		padding-top: 5px;
+			     		text-transform: uppercase;
+			     	}
+				     	.bottom{
+				     		padding-bottom: 4px;
+				     	}
+					     	.block{
+					     		margin: 69px 30px 0 42px;
+					     		display: inline-block;
+					     		width: 170px;
+					     		height: 120px;
+					     		border: 1px solid white;
+				 		        background:rgba(0, 0, 0, 0.6);
+			        			@include breakpoint(small){
+			            			margin: 45px 15px 0 25px;
+			        			}
+				        			@include breakpoint(extra-small){
+				            			margin: 35px 10px 0 15px;
+				        			}
+					     	}
+	     }
+	     .fr{
+	     	padding-top: 30px;
+	     	@include breakpoint(extra-small){
+		            			font-size: 14px;
+		        			}
+	     }
+	     .fr p{
+	     	@include breakpoint(small){
+			            			font-size: 16px;
+			        			}
+	          	@include breakpoint(extra-small){
+		            			font-size: 14px;
+		        			}
+	     }
+	    .form{
+			margin: 15px 99px 0px 112px;
+       		padding: 26px;
+	     	background:rgba(0, 0, 0, 0.6);
+	     	@include breakpoint(middle){
+            		margin: 20px 0px 0px 0px;
+        		}
+        		@include breakpoint(middle){
+            		margin:0;
+        		}
+	        		@include breakpoint(small){
+	            		margin:0;
+	        		}
+		        		@include breakpoint(extra-small){
+		        			margin:0px;
+			        	}
+	     	}
+			.form-group{
+				padding:0px 5px;
+			}
+			.form-control{
+				height: 53px;
+    			width: 214px;
+    			background: #000000;
+			    border-left: 2px solid #07b4ae;
+    			@include breakpoint(extra-small){
+	            	width: 100%;
+	        	}
+			}
+			.btn{
+			    margin: 0px 0px 0px 5px;
+				width:185px;
+				height: 55px;
+				background-color: #fb5240;
+				color: #fff;
+				text-transform: uppercase;
+				@include breakpoint(extra-middle){
+            		margin: 20px 0px 0px 0px;
+        		}
+	        		@include breakpoint(small){
+	            		margin: 20px 0px 0px 0px;
+
+	        		}
+	        		@include breakpoint(extra-small){
+	        			margin:0px;
+	        	}
+			 }
+			.arrow{
+				margin-top: -6px;
+				padding-left: 247px;
+				@include breakpoint(small){
+	            		display: none;
+
+	        		}
+	        		@include breakpoint(extra-small){
+	        			display: none;}
+			}
+}

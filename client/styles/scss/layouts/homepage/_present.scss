@@ -1,0 +1,139 @@
+.present{
+		background: url("../../../client/images/Background_foto_3.jpg");
+		background-repeat: no-repeat;
+	    background-size: cover;
+	    padding-bottom: 80px;
+		@include breakpoint(middle){
+    		padding-bottom: 30px;
+		}
+			@include breakpoint(small){
+	        	padding-bottom:15px;
+	    		}
+	    		@include breakpoint(extra-small){
+	        		padding-bottom: 10px;
+	    		}
+	.gift{
+		padding-top:133px;
+	    padding-left:52px;
+		@include breakpoint(middle){
+    		padding-top: 50px;
+		}
+			@include breakpoint(small){
+	        	padding-top:15px;
+	    		}
+	    		@include breakpoint(extra-small){
+	        		padding-top: 10px;
+	    		}
+		h3{
+			font-family: ClearSans-Medium;
+			font-size: 36px;
+			text-transform: uppercase;
+			}
+			hr{
+				border-top: 1px solid #f4bf1d;
+				
+			}
+			i{
+				font-family: ClearSans-Medium;
+				font-style: normal;
+				font-size: 20px;
+				color: #f9b509;
+				text-transform: uppercase;
+			}
+			p{
+				padding-left: 4px;
+    			margin-top: -7px;
+			}
+			@include breakpoint(small){
+		        padding-left: 25px;
+		}
+	}
+	.imag{
+		padding-top:74px;
+	    padding-left:134px;
+		@include breakpoint(middle){
+    		padding-top: 50px;
+		}
+		    @include breakpoint(small){
+		    	padding-top:15px;
+				text-align: center;
+				padding-left: 0;
+				}
+					@include breakpoint(extra-small){
+						padding-top:10px;
+						text-align: center;
+						padding-left: 0;
+					}
+	    p{
+	    	padding-top: 16px;
+		    padding-left: 10px;
+	    	text-transform: uppercase;
+	    }
+	}
+	.reg{
+	    padding-top: 141px;
+		padding-left: 13px;
+		color:#545454;
+		text-transform: uppercase;
+	    text-align: center;
+	    font-size: 36px;
+	    		@include breakpoint(middle){
+    		padding-top: 35px;
+		}
+			@include breakpoint(small){
+	        	padding-top:15px;
+	        	font-size: 32px;
+	    		}
+	    		@include breakpoint(extra-small){
+	        		padding-top: 10px;
+	        		font-size: 28px;
+	    		}
+	}
+.form-bottom{
+			margin:56px 94px 0px 118px;
+       		padding: 26px;
+	     	background:rgba(0, 0, 0, 0.6);
+	     	text-align: center;
+	     	@include breakpoint(middle){
+            		margin: 20px 0px 0px 0px;
+        		}
+        		@include breakpoint(extra-middle){
+            		margin:0;
+        		}
+	        		@include breakpoint(small){
+	            		margin:0;
+	        		}
+		        		@include breakpoint(extra-small){
+		        			margin:0px;
+			        	}
+	     	}
+			.form-group-bottom{
+				padding:0px 5px;
+			}
+			.form-control-bottom{
+				height: 53px;
+    			width: 214px;
+
+    			@include breakpoint(extra-small){
+	            	width: 100%;
+	        	}
+			}
+			.btn{
+			    margin: 0px 0px 0px 5px;
+				width:185px;
+				height: 55px;
+				background-color: #fb5240;
+				color: #fff;
+				text-transform: uppercase;
+				@include breakpoint(extra-middle){
+            		margin: 20px 0px 0px 0px;
+        		}
+	        		@include breakpoint(small){
+	            		margin: 20px 0px 0px 0px;
+
+	        		}
+	        		@include breakpoint(extra-small){
+	        			margin:0px;
+	        	}
+			 }
+}
